@@ -12,15 +12,18 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <!--  -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" type="text/css" href="css\estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&family=Raleway:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/746fe1d858.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="js/header.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 </head>
 
 <body>
-
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand italica" href="index.html">Por Pipi Patern&oacute;</a>
@@ -30,41 +33,50 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i>Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Posts
+                            <i class="fas fa-map"></i>Posts
                         </a>
                         <div class="dropdown-menu animate__animated animate__fadeIn" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="nav-link" href="modoPapeleo.html">Modo Papeleo</a>
-                            <a class="nav-link" href="girlPower.html">GRL PWR</a>
-                            <a class="nav-link" href="modoBackpacker.html">Modo Backpacker</a>
-                            <a class="nav-link" href="bitacora.html">Bit&aacute;cora</a>
+                            <a class="nav-link" href="modoPapeleo.html"><i class="fas fa-passport"></i>Modo Papeleo</a>
+                            <a class="nav-link" href="girlPower.html"><i class="fas fa-venus"></i>GRL PWR</a>
+                            <a class="nav-link" href="modoBackpacker.html"><i class="fas fa-hiking"></i>Modo Backpacker</a>
+                            <a class="nav-link" href="bitacora.html"><i class="fas fa-pen"></i>Bit&aacute;cora</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre m&iacute;</a>
+                        <a class="nav-link" href="#sobreMi"><i class="fas fa-paper-plane"></i>Sobre m&iacute;</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto"><i class="fas fa-envelope"></i>Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
 
+    <aside class="redes">
+        <a href="https://www.linkedin.com/in/mariapiaa/"><i class="fab fa-linkedin-square"></i></a>
+        <a href="https://www.facebook.com/pipi.paterno"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/modomapa/"><i class="fab fa-instagram-square"></i></a>
+        <a href="mailto:mpiapaterno@gmail.com?Subject=Contacto%20de%20la%20web"><i class="fas fa-envelope-square"></i></a>
+    </aside>
+
     <section class="imagenHeader">
         <img src="img/cieloOptimized.jpg" alt="cielo" id="cielo">
         <img src="img/avion.png" alt="avion" id="avion">
-        <h1 id="text">Modo Mapa</h1>
+        <h1 class="col-lg-12" id="text">Modo Mapa</h1>
+        <div class="arrow-down">
+            <h3 class="cta">Start trip!</h3>
+            <i class="fas fa-angle-down animate__animated animate__slideInDown"></i>
+        </div>
     </section>
+
     <section class="presentacion" class="col-lg-12 col-sm-12">
-        <p class="textoPresentacion"> En el camino descubr&iacute; que los <strong><font color="#3a4237">mapas</font></strong> tienen m&aacute;s que un sentido geogr&aacute;fico y que el modo de caminarlos es infinito en opciones. </br> Este blog es el espacio donde se comparte ese
-            <strong><font color="#3a4237">mood</font></strong> de vida a trav&eacute;s de relatos, reflexiones, consejos, gu&iacute;as y proyectos que inspiran. </br> La idea es que salgas de estas puertas m&aacute;s aventurero, m&aacute;s curioso, m&aacute;s
-            valiente... m&aacute;s viajero. Y claro, ¡con el <strong><font color="#3a4237">modo
-            mapa</font></strong> activado!
-        </p>
+        <p class="textoPresentacion col-md-10 offset-md-1 col-sm-10 offset-sm-1">En el camino descubr&iacute; que los <span>mapas</span> tienen m&aacute;s que un sentido geogr&aacute;fico y que el modo de caminarlos es infinito en opciones. </br> Este blog es el espacio donde se comparte ese <span>mood de vida</span> a trav&eacute;s
+            de relatos, reflexiones, consejos, gu&iacute;as y proyectos que inspiran. </br> La idea es que salgas de estas puertas m&aacute;s aventurero, m&aacute;s curioso, m&aacute;s valiente... m&aacute;s viajero. Y claro, ¡con el <span>modo mapa</span>            activado! </p>
     </section>
 
     <div class="contenido">
@@ -74,12 +86,18 @@
                     <div class="imgBx">
                         <img src="img/modoPapeleoOptimized.jpg" alt="pasaporte">
                     </div>
+                    <a href="#" class="icon animate__animated animate__fadeIn">
+                        <i class="fas fa-passport"></i>
+                    </a>
                     <div class="content">
                         <h2>Modo Papeleo</h2>
                         <p>Lo que ten&eacute;s que saber sobre visas, permisos, ciudadan&iacute;as y m&aacute;s...</p>
                     </div>
                 </div>
                 <div class="card">
+                    <a href="#" class="icon animate__animated animate__fadeIn">
+                        <i class="fas fa-venus"></i>
+                    </a>
                     <div class="imgBx">
                         <img src="img/girlPowerOptimized.jpg" alt="mujeres">
                     </div>
@@ -89,6 +107,9 @@
                     </div>
                 </div>
                 <div class="card">
+                    <a href="#" class="icon animate__animated animate__fadeIn">
+                        <i class="fas fa-hiking"></i>
+                    </a>
                     <div class="imgBx">
                         <img src="img/modoBackpackerOptimized.jpg" alt="mochila">
                     </div>
@@ -98,6 +119,9 @@
                     </div>
                 </div>
                 <div class="card">
+                    <a href="#" class="icon animate__animated animate__fadeIn">
+                        <i class="fas fa-pen"></i>
+                    </a>
                     <div class="imgBx">
                         <img src="img/bitacoraOptimized.jpg" alt="bitacora">
                     </div>
@@ -110,39 +134,79 @@
         </section>
     </div>
 
-    <section>
-        <div class="sobreMi">
-            <div class="textoSobreMi"><strong>¡Hola!</strong> Soy
-                <strong><font color="#af894f">P&iacute;a</font></strong>, abogada en pausa, viajera itinerante y so&ntilde;adora compulsiva. Un d&iacute;a renunci&eacute; a mi trabajo para salir a buscar(me) y encontr&eacute; mucho m&aacute;s que eso.
-                Generalmente me defino por las cosas que me gustan: el olor a pasto mojado, el ruido de las hojas en los &aacute;rboles, un abrazo apretado, el viento en la cara o la sonrisa ante la duda.<strong><font color="#af894f"> ¡Espero que disfrutes el viaje! :)</font></strong></div>
+    <div class="sobreMi">
+        <div class="textoSobreMi col-md-5"><strong>¡Hola!</strong> Soy <span>P&iacute;a</span>, abogada en pausa, viajera itinerante y so&ntilde;adora compulsiva. Un d&iacute;a renunci&eacute; a mi trabajo para salir a buscar(me) y encontr&eacute; mucho m&aacute;s que eso. Generalmente
+            me defino por las cosas que me gustan: el olor a pasto mojado, el ruido de las hojas en los &aacute;rboles, un abrazo apretado, el viento en la cara o la sonrisa ante la duda. <strong>¡Espero que disfrutes el viaje! <i class="far fa-laugh-beam"></i></strong>
+        </div>
+    </div>
+
+    <section class="row row-form" id="contacto">
+        <div class="col-md-5 offset-md-1 col-sm-10 offset-sm-1">
+            <form class="main__contacto__form">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Nombre</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Ingres&aacute; tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingres&aacute; tu email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Motivo de contacto</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Eleg&iacute; una opci&oacute;n</option>
+                        <option>Laboral</option>
+                        <option>Personal</option>
+                        <option>Legal</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">¡Dejame tu mensaje!</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="En los pr&oacute;ximos d&iacute;as te estar&eacute; respondiendo por mail" rows="3"></textarea>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">¿Querés recibir notificaciones por mail cada vez que haya contenido nuevo en mi web? Prometo no ser spam!</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+        <div class="col-md-3 offset-md-2 col-sm-10 offset-sm-1">
+            <div class="elfsight-app-b13858e7-fe03-43bf-9695-b4bd9580d87b"></div>
         </div>
     </section>
 
-    <footer class="page-footer font-small blue pt-4">
-        <div class="container-fluid text-md-left">
-            <div class="row">
-                <div class="col-md-12 mt-3">
-                    <div class="enlacesRedes text-center">
-                        <a href="#" class="fa fa-linkedin"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                    </div>
+    <footer>
+        <div class="row">
+            <div class="col-md-8">
+                <a href="mailto:mpiapaterno@gmail.com?Subject=Contacto%20de%20la%20web">mpiapaterno@gmail.com</a>
+                <div class="footer-copyright text-left py-3">Copyright © 2020 | Modo Mapa, blog de viajes | Todos los derechos reservados. </br> Lo publicado en esta web es de completa autor&iacute;a de Pipi Patern&oacute; y su reproducci&oacute;n debe ser autorizada. </br> Designed and powered
+                    by <a href="https://www.linkedin.com/in/manuelazboril/">Manuela Zboril</a>.
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="footer-copyright text-left py-3">Copyright © 2020 | Modo Mapa, blog de viajes | Todos los derechos reservados. </br> Lo publicado en esta web es de completa autor&iacute;a de Pipi Patern&oacute; y su reproducci&oacute;n debe ser autorizada. </br> Designed and powered
-                        by Manuela Zboril.
-                    </div>
+            <form class="main__contacto__form col-md-3">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">¡Enterate por mail cada vez que suba un nuevo post!</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingres&aacute; tu email">
                 </div>
-            </div>
-        </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
     </footer>
+
+    <!-------------------- script ----------------------->
 
     <script type="text/javascript">
         window.addEventListener('scroll', function() {
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            var aside = document.querySelector("aside");
+            aside.classList.toggle("sticky", window.scrollY > 0);
         })
     </script>
     <script type="text/javascript">
@@ -158,7 +222,6 @@
             text.style.top = value * 1 + 'px';
         })
     </script>
-
 </body>
 
 </html>
